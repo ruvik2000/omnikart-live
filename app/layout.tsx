@@ -1,20 +1,20 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { inter } from "./fonts";
+import Header from "@/components/header";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.omnikart.net"),
   title: "Omnicell ADC | OMNIKART | Singapore",
   description:
     "OmniKART pairs with the Omnicell ADC to help your nursing staff attend to patients more efficiently. Read more.",
   keywords: "Health",
-
   openGraph: {
     title: "Omnicell ADC | OMNIKART | Singapore",
     description:
       "OmniKART pairs with the Omnicell ADC to help your nursing staff attend to patients more efficiently. Read more.",
     siteName: "OmniKart",
+
     type: "website",
     url: "https://www.omnikart.net",
   },
@@ -33,7 +33,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
