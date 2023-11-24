@@ -24,7 +24,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="z-[999] relative ">
+    <header className="z-[999] relative text-black">
       <nav className="flex fixed items-center py-4 px-5 lg:px-[10rem] w-full shadow-xl select-none bg-white">
         <Link
           href="/"
