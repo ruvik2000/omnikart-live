@@ -24,8 +24,8 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="z-[999] relative">
-      <nav className="flex items-center fixed py-4 px-5 lg:px-[10rem] w-full shadow-xl select-none">
+    <header className="z-[999] relative ">
+      <nav className="flex fixed items-center py-4 px-5 lg:px-[10rem] w-full shadow-xl select-none bg-white">
         <Link
           href="/"
           className={`${balooBhai2.className} font-semibold text-2xl`}
