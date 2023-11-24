@@ -62,7 +62,7 @@ export default Header;
 
 export const SideMenu = () => {
   return (
-    <ul className="absolute right-2 top-[5rem] p-2 flex flex-col gap-4 w-[10rem] items-start bg-white shadow-xl rounded-md">
+    <ul className="fixed right-2 top-[5rem] p-2 flex flex-col gap-4 w-[10rem] items-start bg-white shadow-xl rounded-md">
       {links.map((item, index) => (
         <li
           key={index}
