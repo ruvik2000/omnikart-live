@@ -27,7 +27,7 @@ const Header = () => {
     <header className="z-[999] relative">
       <nav className="flex items-center fixed py-4 px-5 lg:px-[10rem] w-full shadow-xl select-none">
         <Link
-          href="https://www.omnikart.net/"
+          href="/"
           className={`${balooBhai2.className} font-semibold text-2xl`}
         >
           Omni<span className="text-green-500">Kart</span>
