@@ -43,6 +43,23 @@ export default function Home() {
           className="absolute w-auto h-auto z-1 opacity-20 md:opacity-100 md:block -right-0 bottom-20 object-contain"
         />
       </section>
+      {/* What is Section */}
+      <section className="flex flex-col items-center justify-start gap-[2rem] px-5 md:px-[15rem] py-[5rem] bg-green-400 text-white">
+        <h2 className="text-4xl font-semibold">What is OmniKart?</h2>
+        <p className="text-center">
+          OmniKart is a sophisticated mobile medication workstation,
+          specifically designed to cater to the daily routines of nurses in
+          hospitals. The system is engineered to optimize the medication
+          administration process while ensuring secure transportation of
+          medications from the cabinet to the patient’s bedside.
+        </p>
+        <p className="text-center">
+          This exceptional system empowers nurses to effortlessly request,
+          retrieve, and deliver all their patients’ medication in a single trip
+          to the medication cabinet, thereby boosting overall efficiency and
+          quality of care.
+        </p>
+      </section>
     </main>
   );
 }
