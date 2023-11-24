@@ -1,11 +1,14 @@
+import CartInfo from "@/components/cart-info";
+import { cartInfo } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 
 export default function Home() {
   return (
     <main className="flex flex-col">
       {/* Banner Section */}
-      <section className="relative h-screen mt-20 w-full flex flex-col gap-3 items-start justify-center p-[2rem] md:p-[5rem]">
+      <section className="relative h-screen  w-full flex flex-col gap-3 items-start justify-center p-[2rem] md:p-[5rem]">
         <div className="z-10 bg-green-500/40 px-4 py-3 rounded-full -mt-16">
           <p className="text-xs md:text-sm font-semibold">
             #Best Medical Transportation Device
@@ -40,7 +43,7 @@ export default function Home() {
           width={500}
           height={500}
           quality={98}
-          className="absolute w-auto h-auto z-1 opacity-20 md:opacity-100 md:block -right-0 bottom-20 object-contain"
+          className="absolute w-auto h-auto z-1 opacity-20 md:opacity-100 md:block -right-0 bottom-0 object-cover"
         />
       </section>
       {/* What is Section */}
@@ -59,6 +62,14 @@ export default function Home() {
           to the medication cabinet, thereby boosting overall efficiency and
           quality of care.
         </p>
+      </section>
+      {/* Mini Feature Section */}
+      <section className="flex flex-col gap-10 py-[5rem] px-[10rem] bg-neutral-100">
+        {cartInfo.map((item) => (
+          <React.Fragment key={item.id}>
+            <CartInfo {...item} />
+          </React.Fragment>
+        ))}
       </section>
     </main>
   );
