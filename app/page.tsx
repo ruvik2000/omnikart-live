@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="flex flex-col">
       {/* Banner Section */}
-      <section className="relative h-screen  w-full flex flex-col gap-3 items-start justify-center p-[2rem] md:p-[5rem]">
+      <section className="relative h-screen w-full flex flex-col gap-3 items-start justify-center p-[2rem] md:p-[5rem]">
         <div className="z-10 bg-green-500/40 px-4 py-3 rounded-full -mt-16">
           <p className="text-xs md:text-sm font-semibold">
             #Best Medical Transportation Device
@@ -23,7 +23,7 @@ export default function Home() {
             TRANSPORTAION
           </h1>
         </div>
-        <div className="flex gap-3 z-10">
+        <div className="flex gap-3 z-10 flex-col md:flex-row">
           <Link
             href="/features"
             className="bg-green-400 px-[2.5rem] py-1 md:px-[5rem] md:py-2 rounded-lg text-white font-medium"
@@ -43,7 +43,7 @@ export default function Home() {
           width={500}
           height={500}
           quality={98}
-          className="absolute w-auto h-auto z-1 opacity-20 md:opacity-100 md:block -right-0 bottom-0 object-cover"
+          className="absolute w-auto h-auto z-1 opacity-20 lg:opacity-100 md:block -right-0 bottom-0 object-cover"
         />
       </section>
       {/* What is Section */}
