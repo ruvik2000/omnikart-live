@@ -6,8 +6,8 @@ type CartInfoProps = (typeof cartInfo)[number];
 
 const CartInfo = ({ imageUrl, infoTitle, infoList }: CartInfoProps) => {
   return (
-    <div className="group flex items-center justify-start h-[20rem] w-[90%] mx-auto even:flex-row-reverse">
-      <div className="relative flex items-center justify-center h-full w-[35%]">
+    <div className="group flex flex-col h-[35rem] w-[90%] mx-auto md:flex-row md:h-[20rem] even:md:flex-row-reverse">
+      <div className="relative flex items-center justify-center h-[50%] w-full md:h-full md:w-[30%]">
         <Image
           src={imageUrl}
           alt={infoTitle}
@@ -15,16 +15,18 @@ const CartInfo = ({ imageUrl, infoTitle, infoList }: CartInfoProps) => {
           height={320}
           quality={98}
           priority
-          className="w-full h-full !object-cover rounded-l-3xl brightness-50 group-even:rounded-r-3xl group-even:rounded-l-none"
+          className="w-full h-full object-cover rounded-t-3xl brightness-50 md:rounded-tr-none md:rounded-l-3xl group-even:md:rounded-l-none group-even:md:rounded-r-3xl"
         />
-        <h3 className="absolute px-2 text-center font-semibold text-2xl text-white">
+        <h3 className="absolute px-2 text-center font-semibold text-xl text-white">
           {infoTitle}
         </h3>
       </div>
-      <div className="flex-1 h-full flex items-center bg-gray-400/50 rounded-r-3xl group-even:rounded-r-none group-even:rounded-l-3xl">
-        <ul className="list-disc flex flex-col gap-4 ml-10">
+      <div className="flex-1 bg-gray-400/50 py-4 px-10 rounded-b-3xl flex flex-col md:rounded-r-3xl md:rounded-bl-none group-even:md:rounded-r-none group-even:md:rounded-l-3xl">
+        <ul className="flex-1 list-disc flex flex-col items-start justify-around md:justify-center md:gap-4">
           {infoList.map((item, index) => (
-            <li key={index}>{item}</li>
+            <li key={index} className="text-sm md:text-base">
+              {item}
+            </li>
           ))}
         </ul>
       </div>

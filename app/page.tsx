@@ -64,7 +64,7 @@ export default function Home() {
         </p>
       </section>
       {/* Mini Feature Section */}
-      <section className="flex flex-col gap-10 py-[5rem] px-[10rem] bg-neutral-100">
+      <section className="flex flex-col gap-10 py-[5rem] px-[2.5rem] md:px-[5rem] bg-neutral-100">
         {cartInfo.map((item) => (
           <React.Fragment key={item.id}>
             <CartInfo {...item} />
