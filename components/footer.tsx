@@ -4,8 +4,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="pt-20 flex flex-col gap-3 pb-10 bg-white text-black">
-      <div className="flex flex-col md:flex-row items-center justify-center gap-[2.5rem] md:gap-[5rem]">
+    <footer className="flex flex-col gap-3 bg-white text-black">
+      <div className="flex flex-col md:flex-row items-center justify-center pb-10 pt-10 gap-[2.5rem] md:gap-[5rem]">
         <div className="flex flex-col justify-center items-center">
           <Link
             href="/"
@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
       </div>
       <hr className="w-[80%] m-auto border-t-2 border-gray-500/25" />
-      <div className="flex  items-center justify-center">
+      <div className="flex  items-center justify-center pb-10 pt-10">
         <p className="text-sm text-gray-500">
           &copy; 2024 OmniKart. All rights reserved.
         </p>
