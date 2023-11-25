@@ -7,13 +7,15 @@ type CustomLetterBlockProps = {
 
 const CustomLetterBlock = ({ letter, description }: CustomLetterBlockProps) => {
   return (
-    <div className="flex flex-col items-center justify-center gap-4">
-      <div className="w-[200px] h-[200px] flex items-center justify-center rounded-3xl bg-white shadow-lg">
-        <h2 className="absolute  text-7xl font-bold text-green-500">
+    <div className="relative flex flex-col items-center justify-center gap-4">
+      <div className="w-[90px] h-[90px] lg:w-[200px] lg:h-[200px] flex items-center justify-center rounded-xl lg:rounded-3xl bg-white shadow-lg">
+        <h2 className="absolute text-3xl lg:text-7xl font-bold text-green-500">
           {letter}
         </h2>
       </div>
-      <p className="font-bold text-sm">{description}</p>
+      <p className="absolute -bottom-10 font-bold text-center text-[8px] lg:text-sm ">
+        {description}
+      </p>
     </div>
   );
 };
