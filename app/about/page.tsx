@@ -38,7 +38,7 @@ const About = () => {
           support including product training and technical fault resolution.
         </p>
         <Image
-          src="/omnikart full.webp"
+          src="/omnikartFull.webp"
           alt="Omnikart Full"
           width={420}
           height={420}
