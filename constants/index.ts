@@ -60,3 +60,22 @@ export const cartInfo = [
     ],
   },
 ];
+
+export const letterBlock = [
+  {
+    letter: "K",
+    description: "KEYLESS",
+  },
+  {
+    letter: "A",
+    description: "ADAPTIVE TECHNOLOGY",
+  },
+  {
+    letter: "R",
+    description: "RECHARGEBLE",
+  },
+  {
+    letter: "T",
+    description: "TIME SAVING",
+  },
+];
