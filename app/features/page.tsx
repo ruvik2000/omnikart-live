@@ -17,7 +17,7 @@ const page = () => {
         <h2 className="text-4xl font-semibold">
           Seamless Integration with Omnicell ADC
         </h2>
-        <p>
+        <p className="text-sm lg:text-base">
           Streamlines the medication administration process and provides safe
           and secure transportation of medications from the medication cabinet
           to the patient’s bedside. Nurse's shifts involve multiple trips to the
