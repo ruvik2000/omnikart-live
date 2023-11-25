@@ -5,7 +5,7 @@ const About = () => {
   return (
     <main className="flex flex-col">
       <section className="relative pt-[5rem] h-screen flex flex-col items-center justify-center md:justify-start gap-[1.7rem] md:gap-[1.8rem] px-4 md:px-[6rem] lg:px-[15rem] bg-neutral-100">
-        <h1 className="text-3xl md:text-5xl lg:7xl">About Us</h1>
+        <h1 className="text-3xl md:text-5xl lg:7xl md:mt-4">About Us</h1>
         <p className="z-10 text-xs text-center md:text-sm font-semibold md:font-medium lg:text-base">
           OmniKart is a product of Omni-Health.
         </p>
