@@ -1,6 +1,7 @@
 import CustomLetterBlock from "@/components/custom-letter-block";
+import Feature from "@/components/feature";
 import SequenceItem from "@/components/sequence-item";
-import { letterBlock, sequenceList } from "@/constants";
+import { featureList, letterBlock, sequenceList } from "@/constants";
 import React from "react";
 
 const page = () => {
@@ -29,6 +30,16 @@ const page = () => {
           {sequenceList.map((item, index) => (
             <React.Fragment key={index}>
               <SequenceItem {...item} />
+            </React.Fragment>
+          ))}
+        </div>
+      </section>
+      <section className="flex flex-col gap-7 py-8 px-[2rem] lg:px-[10rem] text-center bg-neutral-100">
+        <h2 className="text-4xl font-semibold">Features</h2>
+        <div className="w-fit mx-auto grid gap-6 grid-cols-1 grid-rows-6 md:grid-cols-3 md:grid-rows-2">
+          {featureList.map((item, index) => (
+            <React.Fragment key={index}>
+              <Feature {...item} />
             </React.Fragment>
           ))}
         </div>

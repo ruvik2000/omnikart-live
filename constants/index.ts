@@ -120,3 +120,41 @@ export const sequenceList = [
       "At the end of shift, nurse returns unused items to ADC from OmniKart.",
   },
 ];
+
+export const featureList = [
+  {
+    imgUrl: "/icon1.png",
+    title: "Electronically adjustable, simple, and durable structure",
+    description:
+      "Enhances mobility, improves safety and well-being of healthcare workers & easy cleaning to reduce the spread of bacteria",
+  },
+  {
+    imgUrl: "/icon2.png",
+    title: "Modular design with customizable add-ons",
+    description:
+      "Increased flexibility with bespoke solutions and a variety of options for add-ons",
+  },
+  {
+    imgUrl: "/icon3.png",
+    title: "Flexible drawer and bin configurations",
+    description: "Cost effective as resources are used efficiently",
+  },
+  {
+    imgUrl: "/icon4.png",
+    title: "Omnicell ADC compatible",
+    description:
+      "To help streamline medication management and improve patient safety",
+  },
+  {
+    imgUrl: "/icon5.png",
+    title: "Long-lasting & hot-swappable batteries",
+    description:
+      "Provides up to 12 hours of run time on a single battery & rechargeable batteries for endless usage",
+  },
+  {
+    imgUrl: "/icon6.png",
+    title: "Keyboard backlight, swivel monitor arm, & swappable mouse sides",
+    description:
+      "Supports working at night without disrupting patients’ sleep & increases convenience for nursing staff regardless of being left or right-handed",
+  },
+];
