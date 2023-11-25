@@ -4,7 +4,7 @@ import SequenceItem from "@/components/sequence-item";
 import { featureList, letterBlock, sequenceList } from "@/constants";
 import React from "react";
 
-const page = () => {
+const Features = () => {
   return (
     <main className="flex flex-col">
       <section className="mt-10 lg:mt-20 h-[20rem] lg:h-[30rem] px-30 flex items-center justify-center gap-3 lg:gap-[5rem] bg-neutral-100">
@@ -48,4 +48,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Features;
