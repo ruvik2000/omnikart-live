@@ -79,3 +79,44 @@ export const letterBlock = [
     description: "TIME SAVING",
   },
 ];
+
+export const sequenceList = [
+  {
+    number: 1,
+    description: "Pharmacy tops up medications to ADC.",
+  },
+  {
+    number: 2,
+    description:
+      "Nurse verifies that OmniKart drawers are empty at the start of shift.",
+  },
+  {
+    number: 3,
+    description:
+      "Nurse logs in to system & assigns “My Patients” list & order medications from OmniKart.",
+  },
+  {
+    number: 4,
+    description:
+      "Once task completed and verified, nurse sends medication request to ADC.",
+  },
+  {
+    number: 5,
+    description:
+      "Nurse proceeds to ADC to retrieve medications within the administration window.",
+  },
+  {
+    number: 6,
+    description: "Nurse loads meds in OmniKart assigned drawers to patients.",
+  },
+  {
+    number: 7,
+    description:
+      "Nurse to ensure meds remain in locked drawers until administered at bedside.",
+  },
+  {
+    number: 8,
+    description:
+      "At the end of shift, nurse returns unused items to ADC from OmniKart.",
+  },
+];
