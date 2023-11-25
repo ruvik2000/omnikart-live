@@ -25,7 +25,7 @@ const Header = () => {
 
   return (
     <header className="z-[999] relative text-black">
-      <nav className="flex fixed items-center py-4 px-5 lg:px-[10rem] w-full shadow-xl select-none bg-white">
+      <nav className="flex fixed items-center py-4 px-6 lg:px-[10rem] w-full shadow-xl select-none bg-white">
         <Link
           href="/"
           className={`${balooBhai2.className} font-semibold text-2xl`}
@@ -45,6 +45,7 @@ const Header = () => {
           </ul>
           <button
             className="text-2xl p-2 rounded-full md:hidden hover:bg-gray-500/20"
+            aria-label="Aria Menu"
             onClick={() => {
               setMenuVisible(!menuVisible);
             }}
