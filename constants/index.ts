@@ -158,3 +158,26 @@ export const featureList = [
       "Supports working at night without disrupting patients’ sleep & increases convenience for nursing staff regardless of being left or right-handed",
   },
 ];
+
+export const aboutData = [
+  {
+    imageUrl: "/idea.png",
+    title: "Innovative Solutions",
+    desc: "We bring the latest technology in workflow management to optimize your operational efficiency.",
+  },
+  {
+    imageUrl: "/customize.png",
+    title: "Customization",
+    desc: " Our in-house experts tailor solutions to your organization's specific requirements.",
+  },
+  {
+    imageUrl: "/consulting.png",
+    title: "Consulting Services",
+    desc: " Acting as a liaison between end-users and technology providers, we offer a fresh and innovative approach.",
+  },
+  {
+    imageUrl: "/24-hours-support.png",
+    title: "Exceptional Service",
+    desc: "Our goal is to exceed client expectations through outstanding customer service, flexibility, and value.",
+  },
+];

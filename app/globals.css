@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .about-heading {
-  @apply text-3xl md:text-5xl lg:text-7xl md:mt-4;
+  @apply text-3xl md:text-5xl lg:text-7xl mt-5 md:mt-4;
 }
 
 .about-paragraph {
