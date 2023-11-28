@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.about-heading {
+  @apply text-3xl md:text-5xl lg:text-7xl md:mt-4;
+}
+
+.about-paragraph {
+  @apply z-10 text-center font-medium md:font-semibold;
+}

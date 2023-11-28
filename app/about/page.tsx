@@ -4,23 +4,21 @@ import React from "react";
 const About = () => {
   return (
     <main className="flex flex-col">
-      <section className="relative pt-[5rem] h-screen flex flex-col items-center justify-center md:justify-start gap-[1.7rem] md:gap-[1.8rem] px-4 md:px-[6rem] lg:px-[15rem] bg-neutral-100">
-        <h1 className="text-3xl md:text-5xl lg:7xl md:mt-4">About Us</h1>
-        <p className="z-10 text-xs text-center md:text-sm font-semibold md:font-medium lg:text-base">
-          OmniKart is a product of Omni-Health.
-        </p>
-        <p className="z-10 text-xs text-center md:text-sm font-semibold md:font-medium lg:text-base">
+      <section className="relative p-[5rem] h-fit flex flex-col items-center justify-center md:justify-start gap-[1.7rem] md:gap-[1.8rem] px-4 md:px-[6rem] lg:px-[15rem] bg-neutral-100">
+        <h1 className="about-heading">About Us</h1>
+        <p className="about-paragraph">OmniKart is a product of Omni-Health.</p>
+        <p className="about-paragraph">
           Omni-Health is a leading provider of automation solutions in the
           healthcare industry. With a passion for operational efficiency, we aim
           to provide the best solutions in the market to every customer.
         </p>
-        <p className="z-10 text-xs text-center md:text-sm font-semibold md:font-medium lg:text-base">
+        <p className="about-paragraph">
           By bringing in the latest technology in workflow management, along
           with our in-house ability to customise solutions to each
           organisations’ needs, Omni-Health sets itself apart from the
           competition.
         </p>
-        <p className="z-10 text-xs text-center md:text-sm font-semibold md:font-medium lg:text-base">
+        <p className="about-paragraph">
           Together with our principal partners, Omni-Health brings a fresh and
           innovative approach to consulting services, acting as liaison between
           end-user and automation technology provider. We strive to exceed the
@@ -31,7 +29,7 @@ const About = () => {
           with their hands-on experience, thereby ensuring that our clients
           receive the most effective and professional service.{" "}
         </p>
-        <p className="z-10 text-xs text-center md:text-sm font-semibold md:font-medium lg:text-base">
+        <p className="about-paragraph">
           OmniKart is designed specifically to meet these goals by providing
           your nurses with a fast, safe, and convenient method of medication
           administration. Our team of trained Engineers provide round-the-clock
