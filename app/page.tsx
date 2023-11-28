@@ -14,7 +14,7 @@ const Home = () => {
           </p>
         </div>
         <div className="z-10">
-          <h1 className="text-3xl md:text-6xl font-light tracking-tighter leading-[3rem] md:leading-tight">
+          <h1 className="text-3xl md:text-7xl font-light tracking-tighter leading-[3rem] md:leading-tight">
             <span className="font-bold">SAFETY</span> ASSURED AND{" "}
             <span className="font-bold">EFFICIENCY</span>
             <br className="hidden md:block" />
@@ -42,6 +42,7 @@ const Home = () => {
           width={500}
           height={500}
           quality={98}
+          priority
           className="absolute w-auto h-auto z-1 opacity-20 lg:opacity-100 md:block -right-0 bottom-0 object-cover"
         />
       </section>
