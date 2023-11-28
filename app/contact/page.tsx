@@ -38,7 +38,7 @@ const Contact = () => {
             />
           </div>
           <div className="flex-1 pt-4 md:pt-12 flex items-center justify-center">
-            <button className="bg-green-400 px-8 py-3 rounded-xl text-white">
+            <button className="bg-green-400 px-8 py-3 rounded-xl text-white hover:bg-green-500/90 transition">
               Send Message
             </button>
           </div>
