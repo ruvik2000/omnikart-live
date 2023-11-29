@@ -7,12 +7,17 @@ import React from "react";
 const Features = () => {
   return (
     <main className="flex flex-col">
-      <section className="mt-10 lg:mt-20 h-[20rem] lg:h-[30rem] px-30 flex items-center justify-center gap-3 lg:gap-[5rem] bg-neutral-100">
-        {letterBlock.map((item, index) => (
-          <React.Fragment key={index}>
-            <CustomLetterBlock {...item} />
-          </React.Fragment>
-        ))}
+      <section className="pt-[6rem] h-[20rem] lg:h-[30rem] px-30 flex flex-col items-center justify-start gap-10 bg-neutral-100">
+        <h1 className="text-3xl md:text-6xl font-medium text-green-500">
+          Work Omni
+        </h1>
+        <div className="flex items-center justify-center gap-3 lg:gap-[5rem]">
+          {letterBlock.map((item, index) => (
+            <React.Fragment key={index}>
+              <CustomLetterBlock {...item} />
+            </React.Fragment>
+          ))}
+        </div>
       </section>
       <section className="flex flex-col gap-7 py-8 px-[2rem] lg:px-[10rem] text-center text-white bg-green-800">
         <h2 className="text-4xl font-semibold">
