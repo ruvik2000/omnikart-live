@@ -14,7 +14,7 @@ const Home = () => {
           </p>
         </div>
         <div className="z-10">
-          <h1 className="text-3xl md:text-7xl font-light tracking-tighter leading-[3rem] md:leading-tight">
+          <h1 className="text-3xl md:text-6xl font-light tracking-tighter leading-[3rem] md:leading-tight">
             <span className="font-bold">SAFETY</span> ASSURED AND{" "}
             <span className="font-bold">EFFICIENCY</span>
             <br className="hidden md:block" />
