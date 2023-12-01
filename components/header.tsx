@@ -25,7 +25,7 @@ const Header = () => {
 
   return (
     <header className="z-[999] relative text-black">
-      <nav className="flex fixed items-center py-4 px-6 lg:px-[10rem] w-full shadow-xl select-none bg-white dark:bg-gray-900 dark:text-white">
+      <nav className="flex fixed items-center py-4 px-6 lg:px-[10rem] w-full shadow-xl select-none bg-white dark:bg-[#1f1f1f] dark:text-white">
         <Link
           href="/"
           className={`${balooBhai2.className} font-semibold text-2xl`}
@@ -39,7 +39,9 @@ const Header = () => {
                 key={index}
                 className="last:border-2 border-green-500 last:px-5 last:py-1 rounded-full"
               >
-                <Link href={item.hash}>{item.name}</Link>
+                <Link href={item.hash} aria-label={item.ariaLabel}>
+                  {item.name}
+                </Link>
               </li>
             ))}
           </ul>
@@ -69,7 +71,11 @@ export const SideMenu = () => {
           key={index}
           className="w-full hover:bg-gray-600/10  py-1 rounded-md"
         >
-          <Link href={item.hash} className="ml-[5px]">
+          <Link
+            href={item.hash}
+            className="ml-[5px]"
+            aria-label={item.ariaLabel}
+          >
             {item.name}
           </Link>
         </li>

@@ -26,12 +26,14 @@ const Home = () => {
           <Link
             href="/features"
             className="bg-green-400 px-[2.5rem] py-1 md:px-[5rem] md:py-2 rounded-lg text-white font-medium dark:bg-[#39d353]"
+            aria-label="Learn more about the features of omnikart product"
           >
             Learn More
           </Link>
           <Link
             href="/contact"
             className="border-2 border-black px-[2.5rem] py-1 md:px-[5rem] md:py-2 rounded-lg text-black font-medium dark:text-white dark:border-white"
+            aria-label="Contact the omnikart team regarding any information"
           >
             Contact Us
           </Link>
@@ -62,7 +64,7 @@ const Home = () => {
           quality of care.
         </p>
       </section>
-      <section className="flex flex-col gap-10 py-[5rem] px-[2.5rem] md:px-[5rem] bg-neutral-100 dark:bg-gray-600">
+      <section className="flex flex-col gap-10 py-[5rem] px-[2.5rem] md:px-[5rem] bg-neutral-100 dark:bg-gray-300">
         {cartInfo.map((item) => (
           <React.Fragment key={item.id}>
             <CartInfo {...item} />
