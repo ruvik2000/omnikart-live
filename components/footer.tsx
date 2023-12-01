@@ -52,7 +52,7 @@ const Footer = () => {
           <h4 className="uppercase font-medium">Connect</h4>
           <ul className="text-sm flex flex-col items-center md:items-start gap-1">
             <li>
-              <Link href="" className="px-2">
+              <Link href="mailto:info@omnikart.net" className="px-2">
                 Email Us
               </Link>
             </li>
