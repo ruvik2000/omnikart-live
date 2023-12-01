@@ -1,6 +1,5 @@
 import SpecItem from "@/components/spec-item";
 import { techSpecs } from "@/lib";
-import Image from "next/image";
 import React from "react";
 
 const Specification = () => {
