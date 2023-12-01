@@ -7,8 +7,8 @@ import React from "react";
 const Features = () => {
   return (
     <main className="flex flex-col">
-      <section className="pt-[6rem] h-[20rem] lg:h-[30rem] px-30 flex flex-col items-center justify-start gap-10 bg-neutral-100 dark:bg-gray-900 dark:text-white">
-        <h1 className="text-3xl md:text-6xl font-medium text-green-500">
+      <section className="pt-[6rem] h-fit lg:h-[30rem] px-30 pb-[8rem] md:pb-[5rem] flex flex-col items-center justify-start gap-10 bg-neutral-100 dark:bg-[#1f1f1f] dark:text-white">
+        <h1 className="text-3xl md:text-4xl lg:text-6xl font-medium text-green-500">
           Work Omni
         </h1>
         <div className="flex items-center justify-center gap-3 lg:gap-[5rem]">
@@ -39,8 +39,8 @@ const Features = () => {
           ))}
         </div>
       </section>
-      <section className="flex flex-col gap-7 py-8 px-[2rem] lg:px-[10rem] text-center bg-neutral-100 dark:bg-gray-600">
-        <h2 className="text-4xl font-semibold dark:text-white">Features</h2>
+      <section className="flex flex-col gap-7 py-8 px-[2rem] lg:px-[10rem] text-center bg-neutral-100 dark:bg-gray-300">
+        <h2 className="text-4xl font-semibold dark:text-[#1f1f1f]">Features</h2>
         <div className="w-fit mx-auto grid gap-6 grid-cols-1 grid-rows-6 md:grid-cols-3 md:grid-rows-2">
           {featureList.map((item, index) => (
             <React.Fragment key={index}>

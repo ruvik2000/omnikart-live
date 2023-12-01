@@ -21,7 +21,7 @@ const CartInfo = ({ imageUrl, infoTitle, infoList }: CartInfoProps) => {
           {infoTitle}
         </h3>
       </div>
-      <div className="flex-1 bg-gray-400/50 py-4 px-10 rounded-b-3xl flex flex-col md:rounded-r-3xl md:rounded-bl-none group-even:md:rounded-r-none group-even:md:rounded-l-3xl dark:bg-gray-900">
+      <div className="flex-1 bg-gray-400/50 py-4 px-10 rounded-b-3xl flex flex-col md:rounded-r-3xl md:rounded-bl-none group-even:md:rounded-r-none group-even:md:rounded-l-3xl dark:bg-[#1f1f1f]">
         <ul className="flex-1 list-disc flex flex-col items-start justify-around md:justify-center md:gap-4">
           {infoList.map((item, index) => (
             <li key={index} className="text-sm md:text-base">
