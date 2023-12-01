@@ -12,7 +12,7 @@ const CustomLetterBlock = ({ letter, description }: CustomLetterBlockProps) => {
         <h2 className="text-3xl lg:text-7xl font-bold text-green-500">
           {letter}
         </h2>
-        <h2 className="absolute text-3xl lg:text-7xl font-bold text-white-500 blur-xl">
+        <h2 className="absolute text-3xl lg:text-7xl font-bold text-white blur-xl">
           {letter}
         </h2>
       </div>

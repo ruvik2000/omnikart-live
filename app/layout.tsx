@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     url: "https://www.omnikart.net",
   },
   twitter: {
+    images: "/omni.png",
     card: "summary_large_image",
     title: "Omnicell ADC | OMNIKART | Singapore",
     description:
