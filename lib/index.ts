@@ -2,14 +2,17 @@ export const links = [
   {
     name: "Features",
     hash: "/features",
+    ariaLabel: "Visit to view all the features the OmniKart provides",
   },
   {
     name: "About Us",
     hash: "/about",
+    ariaLabel: "Visit to learn about the Omnikart team",
   },
   {
     name: "Contact Us",
     hash: "/contact",
+    ariaLabel: "Contact the omnikart team regarding any information",
   },
 ];
 
@@ -179,5 +182,67 @@ export const aboutData = [
     imageUrl: "/24-hours-support.png",
     title: "Exceptional Service",
     desc: "Our goal is to exceed client expectations through outstanding customer service, flexibility, and value.",
+  },
+];
+
+export const techSpecs = [
+  {
+    title: "Monitor",
+    items: [
+      { name: "Dimension", desc: "1920 x 1080" },
+      { name: "Type", desc: "IPS with LED back-light" },
+      { name: "Size", desc: "19" },
+    ],
+  },
+  {
+    title: "Computer",
+    items: [
+      { name: "Processor", desc: "Intel Core i7-9700" },
+      { name: "Operating System", desc: "Windows 10 Pro (64-bit)" },
+      { name: "Memory", desc: "8GB" },
+      { name: "Data Storage", desc: "500GB HDD" },
+      { name: "Video ", desc: "Intel ( R ) HD Graphics" },
+      {
+        name: "Ports ",
+        desc: "USB - 4 x 3.1 Gen, 2 x 2.0 Gen, 1 DP, 1 HDMI, 1 RJ-45, 1 video port, 1 universal audio jack, 1 optional serial port, 1 Line-out Wireless-ac 9560",
+      },
+      { name: "Networking", desc: "WiFi (dual-band) + Bluetooth 5" },
+      { name: "Dimensions", desc: "18.2cm x 3.6cm x 17.8cm (1.18kg) " },
+      { name: "Bays ", desc: '1 internal - 1.5" HDD' },
+      {
+        name: "Expansion Slots",
+        desc: "1M.2 for sotrage (22 x 80mm / 22 x 30mm) & 1M.2 for wireless (22 x 30mm) ",
+      },
+      { name: "Power Supply", desc: "65 external PSU (for 35W CPU)" },
+    ],
+  },
+  {
+    title: "Battery",
+    items: [
+      { name: "Recharge Time", desc: "4.5 hours" },
+      { name: "Runtime", desc: "Up to 12 hours" },
+      { name: "Input Voltage", desc: "230V/50Hz" },
+      { name: "Approvals", desc: "IEC" },
+    ],
+  },
+  {
+    title: "General",
+    items: [
+      { name: "Base Dimensions", desc: "428.85mm x 78.25mm x 384.42mm" },
+      { name: "Workspace Area", desc: "516mm x 406mm" },
+      { name: "Adjustable Height Range", desc: "400mm" },
+      { name: "Max. Load on Work Space", desc: "7.5kg" },
+      { name: "Construction", desc: "Plastic injection" },
+      {
+        name: "Wheels",
+        desc: "4 low-noise caters, front 2 wheels with brake & lock",
+      },
+      { name: "Approvals", desc: "IEC, RoHS" },
+      {
+        name: "Drawers",
+        desc: "Up to 16 drawers (4 x 4) or 12 drawers with 1 wider drawer at the bottom",
+      },
+      { name: "Drawer Size (inside)", desc: "85.09mm x 74.93mm x 295.91mm" },
+    ],
   },
 ];
