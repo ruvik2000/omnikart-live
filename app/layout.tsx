@@ -3,6 +3,8 @@ import "./globals.css";
 import { inter } from "./fonts";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import ThemeContextProvider from "@/context/theme-context";
+import ThemeSwitch from "@/components/theme-switch";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.omnikart.net"),
@@ -34,10 +36,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Header />
-        {children}
-        <Footer />
+      <body className={`${inter.className} dark:bg-gray-900`}>
+        <ThemeContextProvider>
+          <Header />
+          {children}
+          <Footer />
+          <ThemeSwitch />
+        </ThemeContextProvider>
       </body>
     </html>
   );

@@ -25,7 +25,7 @@ const Header = () => {
 
   return (
     <header className="z-[999] relative text-black">
-      <nav className="flex fixed items-center py-4 px-6 lg:px-[10rem] w-full shadow-xl select-none bg-white">
+      <nav className="flex fixed items-center py-4 px-6 lg:px-[10rem] w-full shadow-xl select-none bg-white dark:bg-gray-900 dark:text-white">
         <Link
           href="/"
           className={`${balooBhai2.className} font-semibold text-2xl`}
@@ -63,7 +63,7 @@ export default Header;
 
 export const SideMenu = () => {
   return (
-    <ul className="fixed right-2 top-[5rem] p-2 flex flex-col gap-4 w-[10rem] items-start bg-white shadow-xl rounded-md">
+    <ul className="fixed right-2 top-[5rem] p-2 flex flex-col gap-4 w-[10rem] items-start bg-white shadow-xl rounded-md dark:bg-gray-800 dark:text-white">
       {links.map((item, index) => (
         <li
           key={index}

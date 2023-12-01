@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <main className="flex flex-col">
-      <section className="relative pt-[5rem] h-screen flex flex-col items-center justify-center md:justify-start gap-[1.7rem] md:gap-[1.8rem] px-4 md:px-[6rem] lg:px-[15rem] bg-neutral-100">
+      <section className="relative pt-[5rem] h-screen flex flex-col items-center justify-center md:justify-start gap-[1.7rem] md:gap-[1.8rem] px-4 md:px-[6rem] lg:px-[15rem] bg-neutral-100 dark:bg-gray-900 dark:text-white">
         <h1 className="-mt-16 text-5xl lg:7xl md:mt-8">Let's Talk</h1>
         <p className="-mt-3 uppercase">How can we help</p>
         <form className="w-full px-10 flex flex-col gap-3">
@@ -12,14 +12,14 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="Name"
-                className="w-full py-2 pr-2 bg-transparent border-b-4 border-b-green-400 outline-none"
+                className="w-full py-2 pr-2 bg-transparent border-b-2 border-b-green-400 outline-none"
               />
             </div>
             <div className="flex-1 pt-4 md:pt-12">
               <input
                 type="email"
                 placeholder="Email"
-                className="w-full py-2 pr-2 bg-transparent border-b-4 border-b-green-400 outline-none"
+                className="w-full py-2 pr-2 bg-transparent border-b-2 border-b-green-400 outline-none"
               />
             </div>
           </div>
@@ -27,14 +27,14 @@ const Contact = () => {
             <input
               type="text"
               placeholder="Company Name"
-              className="w-full py-2 pr-2 bg-transparent border-b-4 border-b-green-400 outline-none"
+              className="w-full py-2 pr-2 bg-transparent border-b-2 border-b-green-400 outline-none"
             />
           </div>
           <div className="flex-1 pt-4 md:pt-12">
             <input
               type="text"
               placeholder="Message"
-              className="w-full py-2 pr-2 bg-transparent border-b-4 border-b-green-400 outline-none"
+              className="w-full py-2 pr-2 bg-transparent border-b-2 border-b-green-400 outline-none"
             />
           </div>
           <div className="flex-1 pt-4 md:pt-12 flex items-center justify-center">

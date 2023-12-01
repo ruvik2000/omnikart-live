@@ -6,7 +6,7 @@ import React from "react";
 const About = () => {
   return (
     <main className="flex flex-col">
-      <section className="relative p-[5rem] h-fit flex flex-col items-center justify-center md:justify-start gap-[1.7rem] md:gap-[1.8rem] px-4 md:px-[6rem] lg:px-[15rem] bg-neutral-100">
+      <section className="relative p-[5rem] h-fit flex flex-col items-center justify-center md:justify-start gap-[1.7rem] md:gap-[1.8rem] px-4 md:px-[6rem] lg:px-[15rem] bg-neutral-100 dark:bg-gray-900 dark:text-white">
         <h1 className="about-heading">About Us</h1>
         <div className="text-center flex flex-col gap-4">
           <p className="text">OmniKart is a product of Omni-Health.</p>
@@ -26,7 +26,7 @@ const About = () => {
             </React.Fragment>
           ))}
         </div>
-        <p className="mt-20 text-center px-20 border-2 rounded-2xl py-10 border-black italic font-semibold">
+        <p className="mt-20 text-center px-20 border-2 rounded-2xl py-10 border-black italic font-semibold dark:border-white">
           OmniKart is designed to provide your nurses with a fast, safe, and
           convenient method of medication administration. Our team of trained
           Engineers offers round-the-clock support, including product training
