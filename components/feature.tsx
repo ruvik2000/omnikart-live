@@ -1,4 +1,4 @@
-import { featureList } from "@/constants";
+import { featureList } from "@/lib";
 import Image from "next/image";
 import React from "react";
 

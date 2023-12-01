@@ -1,5 +1,5 @@
 import CartInfo from "@/components/cart-info";
-import { cartInfo } from "@/constants";
+import { cartInfo } from "@/lib";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";

@@ -1,5 +1,5 @@
 import AboutApproach from "@/components/about-approach";
-import { aboutData } from "@/constants";
+import { aboutData } from "@/lib";
 import Image from "next/image";
 import React from "react";
 

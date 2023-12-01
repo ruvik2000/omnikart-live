@@ -1,4 +1,4 @@
-import { cartInfo } from "@/constants";
+import { cartInfo } from "@/lib";
 import Image from "next/image";
 import React from "react";
 

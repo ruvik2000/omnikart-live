@@ -5,6 +5,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import ThemeContextProvider from "@/context/theme-context";
 import ThemeSwitch from "@/components/theme-switch";
+import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.omnikart.net"),
@@ -41,6 +42,7 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
+          <Toaster position="bottom-left" />
           <ThemeSwitch />
         </ThemeContextProvider>
       </body>

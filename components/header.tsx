@@ -1,7 +1,7 @@
 "use client";
 
 import { balooBhai2 } from "@/app/fonts";
-import { links } from "@/constants";
+import { links } from "@/lib";
 import Link from "next/link";
 import { LuMenu, LuX } from "react-icons/lu";
 import React, { useEffect, useState } from "react";

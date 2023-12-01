@@ -1,7 +1,7 @@
 import CustomLetterBlock from "@/components/custom-letter-block";
 import Feature from "@/components/feature";
 import SequenceItem from "@/components/sequence-item";
-import { featureList, letterBlock, sequenceList } from "@/constants";
+import { featureList, letterBlock, sequenceList } from "@/lib";
 import React from "react";
 
 const Features = () => {
