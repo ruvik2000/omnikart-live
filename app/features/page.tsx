@@ -1,3 +1,5 @@
+"use client";
+
 import CustomLetterBlock from "@/components/custom-letter-block";
 import Feature from "@/components/feature";
 import SequenceItem from "@/components/sequence-item";

@@ -1,12 +1,25 @@
 import { cartInfo } from "@/lib";
 import Image from "next/image";
-import React from "react";
+import React, { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 type CartInfoProps = (typeof cartInfo)[number];
 
 const CartInfo = ({ imageUrl, infoTitle, infoList }: CartInfoProps) => {
+  const ref = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["0 1", "1.33 1"],
+  });
+  const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
+  const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+
   return (
-    <div className="group flex flex-col h-[35rem] w-[90%] mx-auto md:flex-row md:h-[20rem] even:md:flex-row-reverse dark:text-white">
+    <motion.div
+      ref={ref}
+      style={{ scale: scaleProgress, opacity: opacityProgress }}
+      className="group flex flex-col h-[35rem] w-[90%] mx-auto md:flex-row md:h-[20rem] even:md:flex-row-reverse dark:text-white"
+    >
       <div className="relative flex items-center justify-center h-[50%] w-full md:h-full md:w-[30%]">
         <Image
           src={imageUrl}
@@ -30,7 +43,7 @@ const CartInfo = ({ imageUrl, infoTitle, infoList }: CartInfoProps) => {
           ))}
         </ul>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

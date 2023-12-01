@@ -5,6 +5,7 @@ import { links } from "@/lib";
 import Link from "next/link";
 import { LuMenu, LuX } from "react-icons/lu";
 import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 const Header = () => {
   const [menuVisible, setMenuVisible] = useState(false);
@@ -26,23 +27,27 @@ const Header = () => {
   return (
     <header className="z-[999] relative text-black">
       <nav className="flex fixed items-center py-4 px-6 lg:px-[10rem] w-full shadow-xl select-none bg-white dark:bg-[#1f1f1f] dark:text-white">
-        <Link
+        <motion.a
           href="/"
           className={`${balooBhai2.className} font-semibold text-2xl`}
+          initial={{ y: -100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
         >
           Omni<span className="text-green-500">Kart</span>
-        </Link>
+        </motion.a>
         <div className="flex-1 flex  items-center justify-end">
           <ul className="hidden md:flex items-center gap-3">
             {links.map((item, index) => (
-              <li
+              <motion.li
                 key={index}
                 className="last:border-2 border-green-500 last:px-5 last:py-1 rounded-full"
+                initial={{ y: -100, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
               >
                 <Link href={item.hash} aria-label={item.ariaLabel}>
                   {item.name}
                 </Link>
-              </li>
+              </motion.li>
             ))}
           </ul>
           <button
