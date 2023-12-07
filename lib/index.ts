@@ -46,7 +46,7 @@ export const cartInfo = [
     imageUrl: "/side3.webp",
     infoTitle: "Improve Patient Care and Nurse Satisfaction",
     infoList: [
-      "Capable of assigning separate or individual locking drawers for patients thus minimising trips to the ADC.",
+      "Capable of assigning separate or individual locking drawers for patients thus minimizing trips to the ADC.",
       "Enables quick retrieval of scheduled and as-needed medication.",
       "Remote access allows nurses to review medication orders and manage medication requests.",
       "Proven results: 77% of nurses were able to double-check medications due to time savings.",
@@ -58,7 +58,7 @@ export const cartInfo = [
     infoTitle: "Workflow for Greater Efficiency",
     infoList: [
       "“My Patients” feature facilitates faster order processing.",
-      "Reduces time spent at the ADC",
+      "Reduces time spent at the ADC.",
       "Proven results: saved at least 15min per nurse during the morning med pass; medication removal time at ADC decreased 33%.",
     ],
   },
@@ -91,36 +91,37 @@ export const sequenceList = [
   {
     number: 2,
     description:
-      "Nurse verifies that OmniKart drawers are empty at the start of shift.",
+      "The Nurse verifies that OmniKart drawers are empty at the start of shift.",
   },
   {
     number: 3,
     description:
-      "Nurse logs in to system & assigns “My Patients” list & order medications from OmniKart.",
+      "The Nurse logs in to the system & assigns “My Patients” list & order medications from OmniKart.",
   },
   {
     number: 4,
     description:
-      "Once task completed and verified, nurse sends medication request to ADC.",
+      "Once the task is completed and verified, the nurse sends medication request to ADC.",
   },
   {
     number: 5,
     description:
-      "Nurse proceeds to ADC to retrieve medications within the administration window.",
+      "The Nurse proceeds to ADC to retrieve medications within the administration window.",
   },
   {
     number: 6,
-    description: "Nurse loads meds in OmniKart assigned drawers to patients.",
+    description:
+      "The Nurse loads meds in OmniKart assigned drawers to patients.",
   },
   {
     number: 7,
     description:
-      "Nurse to ensure meds remain in locked drawers until administered at bedside.",
+      "The Nurse to ensure meds remain in locked drawers until administered at bedside.",
   },
   {
     number: 8,
     description:
-      "At the end of shift, nurse returns unused items to ADC from OmniKart.",
+      "At the end of shift, the nurse returns unused items to ADC from OmniKart.",
   },
 ];
 
@@ -129,7 +130,7 @@ export const featureList = [
     imgUrl: "/icon1.png",
     title: "Electronically adjustable, simple, and durable structure",
     description:
-      "Enhances mobility, improves safety and well-being of healthcare workers & easy cleaning to reduce the spread of bacteria",
+      "Enhances mobility, improves safety and well-being of healthcare workers & easy cleaning to reduce the spread of bacteria.",
   },
   {
     imgUrl: "/icon2.png",
@@ -140,25 +141,25 @@ export const featureList = [
   {
     imgUrl: "/icon3.png",
     title: "Flexible drawer and bin configurations",
-    description: "Cost effective as resources are used efficiently",
+    description: "Cost effective as resources are used efficiently.",
   },
   {
     imgUrl: "/icon4.png",
     title: "Omnicell ADC compatible",
     description:
-      "To help streamline medication management and improve patient safety",
+      "To help streamline medication management and improve patient safety.",
   },
   {
     imgUrl: "/icon5.png",
     title: "Long-lasting & hot-swappable batteries",
     description:
-      "Provides up to 12 hours of run time on a single battery & rechargeable batteries for endless usage",
+      "Provides up to 12 hours of run time on a single battery & rechargeable battery for endless usage.",
   },
   {
     imgUrl: "/icon6.png",
     title: "Keyboard backlight, swivel monitor arm, & swappable mouse sides",
     description:
-      "Supports working at night without disrupting patients’ sleep & increases convenience for nursing staff regardless of being left or right-handed",
+      "Supports working at night without disrupting patients’ sleep & increases convenience for nursing staff regardless of being left or right-handed.",
   },
 ];
 

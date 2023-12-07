@@ -10,7 +10,7 @@ const About = () => {
         <div className="text-center flex flex-col gap-4">
           <p className="text">OmniKart is a product of Omni-Health.</p>
           <p>
-            At Omni-Health, we lead the way in providing cutting-edge automation
+            At Omni-Health, we lead the way in providing innovative automation
             solutions for the healthcare industry. Our commitment to operational
             efficiency drives us to deliver the best solutions in the market
             tailored to each customer's unique needs.

@@ -33,7 +33,7 @@ const Home = () => {
             <span className="font-bold">EFFICIENCY</span>
             <br className="hidden md:block" />
             GUARANTEED, <span className="font-bold">SECURE</span> MEDICATION
-            TRANSPORTAION
+            TRANSPORTATION
           </motion.h1>
         </div>
         <motion.div
