@@ -8,7 +8,7 @@ import ThemeSwitch from "@/components/theme-switch";
 import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.omnikart.net"),
+  metadataBase: new URL("https://illustrious-bunny-e932ea.netlify.app/"),
   title: "Omnicell ADC | OMNIKART | Singapore",
   description:
     "OmniKART pairs with the Omnicell ADC to help your nursing staff attend to patients more efficiently. Read more.",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "OmniKart",
 
     type: "website",
-    url: "https://www.omnikart.net",
+    url: "https://illustrious-bunny-e932ea.netlify.app",
   },
   twitter: {
     images: "/omni.png",
