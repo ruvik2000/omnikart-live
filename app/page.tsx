@@ -114,7 +114,7 @@ const Home = () => {
           quality of care.
         </motion.p>
       </section>
-      <section className="flex flex-col gap-10 [&>*:nth-child(2)]:mt-20 py-[5rem] px-[2.5rem] md:px-[5rem] bg-neutral-100 dark:bg-gray-300">
+      <section className="flex flex-col gap-10 [&>*:nth-child(2)]:mt-20 md:[&>*:nth-child(2)]:mt-0 py-[5rem] px-[2.5rem] md:px-[5rem] bg-neutral-100 dark:bg-gray-300">
         {cartInfo.map((item) => (
           <React.Fragment key={item.id}>
             <CartInfo {...item} />
