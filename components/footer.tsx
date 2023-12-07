@@ -1,4 +1,5 @@
 import { balooBhai2 } from "@/app/fonts";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -19,6 +20,13 @@ const Footer = () => {
           >
             A brand of Omni-Health
           </Link>
+          <Image
+            src="/Conformité_Européenne_(logo).svg"
+            alt="Conformité_Européenne_(logo)"
+            width={50}
+            height={50}
+            className="mt-3 dark:bg-white p-2"
+          />
         </div>
         <div className="flex flex-col items-center md:items-start gap-1">
           <h4 className="uppercase font-medium">Product</h4>
@@ -27,13 +35,15 @@ const Footer = () => {
               <Link
                 href="/features"
                 aria-label="Visit to view all the features the OmniKart provides"
-                className="px-2"
               >
                 Features
               </Link>
             </li>
             <li>
-              <Link href="/specification" className="px-2">
+              <Link
+                href="/specification"
+                aria-label="To view all product related specifications"
+              >
                 Technical Specifications
               </Link>
             </li>
@@ -41,7 +51,7 @@ const Footer = () => {
               <a
                 href="/OmniKart_Brochure_Product_Brochure.pdf"
                 target="_black"
-                className="px-2"
+                aria-label="To download product brochure directly"
               >
                 Download Brochure
               </a>
@@ -52,12 +62,18 @@ const Footer = () => {
           <h4 className="uppercase font-medium">Connect</h4>
           <ul className="text-sm flex flex-col items-center md:items-start gap-1">
             <li>
-              <Link href="mailto:info@omnikart.net" className="px-2">
+              <Link
+                href="mailto:info@omnikart.net"
+                aria-label="To send direct mail using mail app"
+              >
                 Email Us
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="px-2" aria-label="">
+              <Link
+                href="/contact"
+                aria-label="To send message to the Omnikart company"
+              >
                 Send us a Message
               </Link>
             </li>
