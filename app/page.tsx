@@ -47,14 +47,14 @@ const Home = () => {
           <Link
             href="/features"
             className="bg-green-400 px-[2.5rem] py-1 md:px-[5rem] md:py-2 rounded-lg text-white font-medium dark:bg-[#39d353]"
-            aria-label="Learn more about the features of omnikart product"
+            aria-label="Product Features"
           >
-            Learn More
+            Explor Features
           </Link>
           <Link
             href="/contact"
             className="border-2 border-black px-[2.5rem] py-1 md:px-[5rem] md:py-2 rounded-lg text-black font-medium dark:text-white dark:border-white"
-            aria-label="Contact the omnikart team regarding any information"
+            aria-label="Contact Us"
           >
             Contact Us
           </Link>

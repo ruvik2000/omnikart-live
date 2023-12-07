@@ -2,17 +2,17 @@ export const links = [
   {
     name: "Features",
     hash: "/features",
-    ariaLabel: "Visit to view all the features the OmniKart provides",
+    ariaLabel: "Product Features",
   },
   {
     name: "About Us",
     hash: "/about",
-    ariaLabel: "Visit to learn about the Omnikart team",
+    ariaLabel: "About Omnikart",
   },
   {
     name: "Contact Us",
     hash: "/contact",
-    ariaLabel: "Contact the omnikart team regarding any information",
+    ariaLabel: "Contact Us",
   },
 ];
 
