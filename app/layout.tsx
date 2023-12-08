@@ -12,16 +12,16 @@ export const metadata: Metadata = {
   title: "Omnicell ADC | OMNIKART | Singapore",
   description:
     "OmniKART pairs with the Omnicell ADC to help your nursing staff attend to patients more efficiently. Read more.",
-  keywords: "Health",
+  keywords:
+    "Omnikart, Omnicell, Omni-Health, Singapore, Cutting-edge, Workstation, Medication Workstation, Health, Keyless, Time Saving, Healthcare ",
   robots: "index, follow",
   openGraph: {
     title: "Omnicell ADC | OMNIKART | Singapore",
     description:
       "OmniKART pairs with the Omnicell ADC to help your nursing staff attend to patients more efficiently. Read more.",
     siteName: "OmniKart",
-
     type: "website",
-    url: "https://illustrious-bunny-e932ea.netlify.app",
+    url: "/",
   },
   twitter: {
     images: "/omni.png",
