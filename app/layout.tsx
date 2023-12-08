@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   description:
     "OmniKART pairs with the Omnicell ADC to help your nursing staff attend to patients more efficiently. Read more.",
   keywords: "Health",
+  robots: "index, follow",
   openGraph: {
     title: "Omnicell ADC | OMNIKART | Singapore",
     description:
