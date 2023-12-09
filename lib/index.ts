@@ -19,7 +19,7 @@ export const links = [
 export const cartInfo = [
   {
     id: 0,
-    imageUrl: "/side1.jpeg",
+    imageUrl: "/side1.webp",
     infoTitle: "Smart Drawer for Patient Safety",
     infoList: [
       "Eliminates the manual process of labelling drawers: Up to 16 patient-specific drawers can be assigned.",
@@ -54,7 +54,7 @@ export const cartInfo = [
   },
   {
     id: 3,
-    imageUrl: "/side4.jpeg",
+    imageUrl: "/side4.webp",
     infoTitle: "Workflow for Greater Efficiency",
     infoList: [
       "“My Patients” feature facilitates faster order processing.",

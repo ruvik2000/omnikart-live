@@ -68,7 +68,7 @@ const Home = () => {
           }}
         >
           <Image
-            src="/omnikart.png"
+            src="/omnikart.webp"
             alt="kart image"
             width={500}
             height={500}
