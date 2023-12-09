@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://illustrious-bunny-e932ea.netlify.app/sitemap.xml
