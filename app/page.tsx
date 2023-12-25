@@ -49,7 +49,7 @@ const Home = () => {
             className="bg-green-400 px-[2.5rem] py-1 md:px-[5rem] md:py-2 rounded-lg text-white font-medium dark:bg-[#39d353]"
             aria-label="Product Features"
           >
-            Explor Features
+            Explore Features
           </Link>
           <Link
             href="/contact"
