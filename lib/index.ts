@@ -22,7 +22,7 @@ export const cartInfo = [
     imageUrl: "/side1.webp",
     infoTitle: "Smart Drawer for Patient Safety",
     infoList: [
-      "Eliminates the manual process of labelling drawers: Up to 16 patient-specific drawers can be assigned.",
+      "Eliminates the manual process of labelling drawers: Up to sixteen patient-specific drawers can be assigned.",
       "Independent locking drawers minimize the risk of administering the wrong medication to a patient.",
       "Guided lights assist to identify the drawer to be opened.",
       "Flexibility to configure workstations with storage drawers or bins.",
