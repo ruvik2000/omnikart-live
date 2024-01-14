@@ -1,4 +1,5 @@
 User-Agent: *
 Allow: /
+Disallow: /omnikart
 
 Sitemap: https://omnikart.net/sitemap.xml
