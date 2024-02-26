@@ -46,14 +46,14 @@ const Home = () => {
         >
           <Link
             href="/features"
-            className="bg-green-400 px-[2.5rem] py-1 md:px-[5rem] md:py-2 rounded-lg text-white font-medium dark:bg-[#39d353]"
+            className="bg-green-400 text-center px-[2.5rem] py-1 md:px-[5rem] md:py-2 rounded-lg text-white font-medium dark:bg-[#39d353]"
             aria-label="Product Features"
           >
             Explore Features
           </Link>
           <Link
             href="/contact"
-            className="border-2 border-black px-[2.5rem] py-1 md:px-[5rem] md:py-2 rounded-lg text-black font-medium dark:text-white dark:border-white"
+            className="border-2 text-center border-black px-[2.5rem] py-1 md:px-[5rem] md:py-2 rounded-lg text-black font-medium dark:text-white dark:border-white"
             aria-label="Contact Us"
           >
             Contact Us
@@ -68,13 +68,13 @@ const Home = () => {
           }}
         >
           <Image
-            src="/omnikart.webp"
+            src="/TOM_2319.png"
             alt="kart image"
             width={500}
             height={500}
             quality={98}
             priority
-            className="absolute w-auto h-auto z-1 opacity-20 lg:opacity-100 md:block -right-0 bottom-0 object-cover"
+            className="absolute right-0 top-0 opacity-20 lg:opacity-100"
           />
         </motion.div>
       </section>
