@@ -86,11 +86,11 @@ const Footer = () => {
           &copy; 2024 OmniKart. All rights reserved.
         </p>
         <Link
-          href="https://shanukapeiris.netlify.app/"
+          href="https://codecrafters.bar"
           className="hover:underline text-sm text-gray-500 px-2"
           aria-label="To view more details about the developer and designer of the website"
         >
-          Design & Dev
+          Design & Dev CODECRAFTERS
         </Link>
       </div>
     </footer>
